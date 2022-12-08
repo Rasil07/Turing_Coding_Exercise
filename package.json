@@ -1,0 +1,13 @@
+{
+  "name": "turing_answers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rasil Baidar",
+  "license": "MIT",
+  "scripts": {
+    "run:qsn1": "cd question1 && yarn start",
+    "run:qsn3": "cd question3 && yarn start",
+    "run:qsn4": "cd question4 && yarn install && yarn start",
+    "run:qsn5": "cd question5 && yarn start"
+  }
+}

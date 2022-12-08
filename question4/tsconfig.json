@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./build",
+    "rootDir": "./src",
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": false,
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+
+  "lib": ["es5", "es6", "dom"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
